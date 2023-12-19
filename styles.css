@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9e7e7; /* Пастельный розовый */
+    color: #2e2e2e; /* Темно-серый */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e2e2e; /* Темно-серый */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #542c44; /* Темно-фиолетовый */
+}
+
+.hero {
+    background-color: #b1abd4; /* Пастельный фиолетовый */
+    color: #2e2e2e; /* Темно-серый */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #542c44; /* Темно-фиолетовый */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #542c44; /* Темно-фиолетовый */
+    color: #f3ecdb; /* Пастельный бежевый */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #916e62; /* Пастельный коричневый */
+}
+
+/* Анимации */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-section,
+.portfolio-section,
+.brief-section,
+.contact-section {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.about-section,
+.portfolio-section,
+.brief-section,
+.contact-section h2 {
+    color: #542c44; /* Темно-фиолетовый */
+}
+
+.about-content,
+.portfolio-section,
+.brief-content,
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ... (ваш текущий CSS) ... */
+
+.brief-section {
+    background-color: #e6d787; /* Пастельный желтый */
+    color: #542c44; /* Темно-фиолетовый */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.brief-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.brief-section h2 {
+    color: #542c44; /* Темно-фиолетовый */
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем форму */
+    background-color: #f3ecdb; /* Пастельный бежевый */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #542c44; /* Темно-фиолетовый */
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #542c44; /* Темно-фиолетовый */
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #542c44; /* Темно-фиолетовый */
+    color: #f3ecdb; /* Пастельный бежевый */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #916e62; /* Пастельный коричневый */
+}
+
+/* ... (остальной ваш CSS) ... */
+
+
